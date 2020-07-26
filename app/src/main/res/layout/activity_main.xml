@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".SelectContactActivityNew">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact App"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write your message"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/et_msg"
+        android:paddingTop="7dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/fragment_border"
+        android:layout_centerVertical="true"
+        android:gravity="start"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="7dp"
+        >
+        <TextView
+            android:id="@+id/tv_charactercount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:text="0"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" / "
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/tv_noOf160s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_selectcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Contact"
+        android:layout_marginTop="40dp"
+        android:textSize="18sp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="10dp"
+        android:textColor="@color/colorPrimary"
+        />
+    <Button
+        android:id="@+id/bt_checkbalance"
+        android:layout_width="180dp"
+        android:background="@color/colorPrimary"
+        android:text="Check Balance"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:id="@+id/tv_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Balance :"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/bt_Showloaction"
+        android:layout_width="180dp"
+        android:background="@color/colorPrimary"
+        android:text="Show Location"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_height="60dp"/>
+
+</LinearLayout>
