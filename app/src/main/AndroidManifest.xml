@@ -34,9 +34,9 @@
 <!--            android:name="com.google.android.geo.API_KEY"-->
 <!--            android:value="AIzaSyB2MaFpgQGROf_mA1zXWoOlHi9EX_XWkds" />-->
 
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCv5wYh_QIcqSgT7GRB2z8MCPxCuBa1nKo" />
+<!--        <meta-data-->
+<!--            android:name="com.google.android.geo.API_KEY"-->
+<!--            android:value="AIzaSyCv5wYh_QIcqSgT7GRB2z8MCPxCuBa1nKo" />-->
 
         <activity android:name=".WebViewActivity">
         </activity>
